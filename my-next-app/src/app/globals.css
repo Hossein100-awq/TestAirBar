@@ -1,0 +1,53 @@
+@import "tailwindcss";
+body {
+	background-color: #F6F6F6;
+}
+@layer components {
+  .footer-link {
+    @apply text-xl font-medium leading-9 text-[#7E7E7E] transition-colors hover:text-[#FE481C];
+  }
+}
+@font-face {
+  font-family: "IRAN";
+  src: url("/fonts/IRAN.woff2") format("woff2");
+  font-weight: 400;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "BYekan";
+  src: url("/fonts/BYekan+.ttf") format("truetype");
+  font-weight: 400;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "BYekan";
+  src: url("/fonts/BYekan+ Bold.ttf") format("truetype");
+  font-weight: 700;
+  font-style: normal;
+  font-display: swap;
+}
+
+body {
+  font-family: "BYekan", sans-serif;
+}
+html,
+body {
+  font-family: "BYekan", sans-serif !important;
+}
+
+*,
+*::before,
+*::after {
+  font-family: inherit;
+}
+
+input,
+textarea,
+select,
+button {
+  font-family: "BYekan", sans-serif !important;
+}
